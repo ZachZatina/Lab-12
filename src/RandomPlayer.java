@@ -3,6 +3,7 @@ public class RandomPlayer extends Player {
 
 	@Override
 	public Roshambo generateRoshambo() {
+		// gets a random number from 0 to 2 and applies to the switch statement getting a roshambo value back
 		int randNum = (int) (Math.random() * 3);
 		
 		switch(randNum) {

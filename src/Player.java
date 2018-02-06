@@ -1,6 +1,6 @@
 
 public abstract class Player {
-	
+	// parent abstract class
 	private String name;
 	
 	public Player() {
